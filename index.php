@@ -1,43 +1,29 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
-<!-- Mirrored from demo.webtend.net/html/qoll/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Nov 2023 15:30:03 GMT -->
 <head>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!--====== Title ======-->
     <title>Qoll - Agency HTML Template || Home</title>
-    <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <!--====== Google Fonts ======-->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet">
-    
-    <!--====== Font Awesome ======-->
     <link rel="stylesheet" href="assets/css/font-awesome-5.9.0.min.css">
-    <!--====== Bootstrap ======-->
     <link rel="stylesheet" href="assets/css/bootstrap-4.5.3.min.css">
-    <!--====== Magnific Popup ======-->
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!--====== Nice Select ======-->
     <link rel="stylesheet" href="assets/css/nice-select.min.css">
-    <!--====== Animate ======-->
     <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!--====== Slick ======-->
     <link rel="stylesheet" href="assets/css/slick.min.css">
-    <!--====== Main Style ======-->
     <link rel="stylesheet" href="assets/css/style.css">
-    
 </head>
+
 <body class="home-one">
     <div class="page-wrapper">
-
         <!-- Preloader -->
         <div class="preloader"></div>
-
         <!-- main header -->
         <header class="main-header">
             <!--Header-Upper-->
@@ -46,7 +32,7 @@
 
                     <div class="header-inner d-flex align-items-center justify-content-between">
                         <div class="logo-outer d-lg-flex align-items-center">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a></div>
                             <select name="select-languages" id="select-languages">
                                 <option value="English">English</option>
                                 <option value="Spanish">Spanish</option>
@@ -65,23 +51,23 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    
-                                   <div class="mobile-logo p-15 m-auto">
-                                       <a href="index.html">
+
+                                    <div class="mobile-logo p-15 m-auto">
+                                        <a href="index.php">
                                             <img src="assets/images/logo.png" alt="Logo" title="Logo">
-                                       </a>
-                                   </div>
+                                        </a>
+                                    </div>
                                 </div>
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation onepage clearfix">
                                         <li><a href="#home">home</a></li>
-										<li><a href="#about">About</a></li>
+                                        <li><a href="#about">About</a></li>
                                         <li><a href="#projects">project</a></li>
                                         <li><a href="#pricing">pricing</a></li>
                                         <li><a href="#blog">blog</a></li>
                                         <li><a href="#contact">Contact</a></li>
-										<li class="dropdown"><a href="#">Pages</a>
+                                        <li class="dropdown"><a href="#">Pages</a>
                                             <ul>
                                                 <li><a href="#services">Services</a></li>
                                                 <li><a href="#about">about Us</a></li>
@@ -90,21 +76,18 @@
                                                 <li><a href="#faqs">core features</a></li>
                                                 <li><a href="#technologies">technologies</a></li>
                                                 <li><a href="#feedbacks">clients feedback</a></li>
-												
-												
                                             </ul>
                                         </li>
                                     </ul>
                                 </div>
-
                             </nav>
                             <!-- Main Menu End-->
                         </div>
-                        
+
                         <!-- Menu Button -->
                         <div class="menu-btn-sidebar onepage d-flex align-items-center">
                             <a href="#contact" class="theme-btn">Let’s Talk <i class="fas fa-long-arrow-alt-right"></i></a>
-                            
+
                             <!-- menu sidbar -->
                             <div class="menu-sidebar">
                                 <button>
@@ -119,11 +102,8 @@
             </div>
             <!--End Header Upper-->
         </header>
-       
-       
         <!--Form Back Drop-->
         <div class="form-back-drop"></div>
-        
         <!-- Hidden Sidebar -->
         <section class="hidden-bar">
             <div class="inner-box text-center">
@@ -160,19 +140,17 @@
             </div>
         </section>
         <!--End Hidden Sidebar -->
-       
-        
         <!-- Hero Section Start -->
         <section class="hero-section rel z-1 bg-dark-blue pt-25 rpt-5" id="home">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-8 col-md-10 col-sm-11">
                         <div class="hero-content text-white mt-250 mb-215">
-                           <span class="sub-title wow fadeInUp delay-0-2s">Welcome to Qolle</span>
+                            <span class="sub-title wow fadeInUp delay-0-2s">Welcome to Qolle</span>
                             <h1 class="wow fadeInUp delay-0-4s">Creative Solutions For Web Design and Development</h1>
                             <p class="wow fadeInUp delay-0-6s">Sed ut perspiciatis unde omnis iste natus error siluptatem accusantium doloremque laudantium totam rem</p>
                             <div class="hero-btn mt-35 wow fadeInUp delay-0-8s">
-                                <a href="#" class="theme-btn style-two">Start  a Project <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <a href="#" class="theme-btn style-two">Start a Project <i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -187,19 +165,17 @@
             <div class="hero-dot-three"></div>
         </section>
         <!-- Hero Section End -->
-        
-        
         <!-- Services Section Start -->
         <section class="services-section text-center pt-125 rpt-95" id="services">
             <div class="container">
-               <div class="row justify-content-center">
-                   <div class="col-xl-6 col-lg-8 col-md-10">
-                       <div class="section-title mb-50">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-md-10">
+                        <div class="section-title mb-50">
                             <span class="sub-title">What We Offer</span>
                             <h2>Creative Landing Services For Web Solutions</h2>
                         </div>
-                   </div>
-               </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-item wow fadeInUp delay-0-2s">
@@ -229,8 +205,6 @@
             </div>
         </section>
         <!-- Services Section End -->
-   
-        
         <!-- About Section Start -->
         <section class="about-section rel z-1 pt-100 rpt-70" id="about">
             <div class="container">
@@ -262,8 +236,6 @@
             </div>
         </section>
         <!-- About Section End -->
-
-         
         <!-- What We Want Start -->
         <section class="what-we-want-area rel z-1 pt-125 rpt-100 pb-115 rpb-85" id="what-we-want">
             <div class="container">
@@ -310,19 +282,17 @@
             </div>
         </section>
         <!-- What We Want End -->
-
-       
         <!-- Projects Section Start -->
         <section id="projects" class="projects-section bg-dark-blue text-center text-white pt-125 pb-120 rpt-95 rpb-90" style="background-image: url(assets/images/projects/project-bg.png);">
             <div class="container-fluid">
-               <div class="row justify-content-center">
-                   <div class="col-xl-6 col-lg-8 col-md-10">
-                       <div class="section-title mb-50">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-md-10">
+                        <div class="section-title mb-50">
                             <span class="sub-title">Recent Projects</span>
                             <h2>Lat’s Look Our Recent Project That We Provide Global Clients</h2>
                         </div>
-                   </div>
-               </div>
+                    </div>
+                </div>
                 <div class="project-wrap">
                     <div class="project-item wow fadeInUp delay-0-2s">
                         <img src="assets/images/projects/project-1.jpg" alt="Project">
@@ -351,8 +321,6 @@
             </div>
         </section>
         <!-- Projects Section End -->
-        
-        
         <!-- Why Choose Us Start -->
         <section class="why-choose-us rel z-1 pt-120 rpt-100" id="why-choose-us">
             <div class="container">
@@ -376,7 +344,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                   <div class="list-content">
+                                    <div class="list-content">
                                         <h5>No Contracts Needed</h5>
                                         <p>Natus voluptatem accusantie doloremue laudantium totam aperiam eaquepsa quae abillo</p>
                                     </div>
@@ -389,8 +357,6 @@
             </div>
         </section>
         <!-- Why Choose Us End -->
-
-        
         <!-- FAQs Section Start -->
         <section class="faqs-section rel z-1 pt-125 rpt-95 pb-130 rpb-100" id="faqs">
             <div class="container">
@@ -401,7 +367,7 @@
                                 <span class="sub-title">Core Features</span>
                                 <h2>New Idea For Success Wed Development</h2>
                             </div>
-                             <div class="faq-accordion" id="faq-accordion">
+                            <div class="faq-accordion" id="faq-accordion">
                                 <div class="card">
                                     <a class="collapsed card-header" id="heading1" href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"><span class="toggle-btn"></span> Flippy Snaps With React And GreenSock
                                     </a>
@@ -450,19 +416,17 @@
             </div>
         </section>
         <!-- FAQs Section End -->
-        
-        
         <!-- Technologies Section Start -->
         <section class="technologies-section bg-light text-center pt-125 rpt-95 pb-100 rpb-70" id="technologies">
             <div class="container">
-               <div class="row justify-content-center">
-                   <div class="col-xl-6 col-lg-8 col-md-10">
-                       <div class="section-title mb-50">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-md-10">
+                        <div class="section-title mb-50">
                             <span class="sub-title">Technologies</span>
                             <h2>Integrating Cutting-edge Web technologies</h2>
                         </div>
-                   </div>
-               </div>
+                    </div>
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-xl-2 col-md-3 col-sm-4 col-6">
                         <a class="technology-item wow fadeInUp delay-0-2s" href="#">
@@ -528,8 +492,6 @@
             </div>
         </section>
         <!-- Technologies Section End -->
-        
-        
         <!-- Feedback Section Start -->
         <section class="feedback-section rel z-1 pt-125 rpt-95 pb-130 rpb-100" id="feedbacks">
             <div class="container">
@@ -605,19 +567,17 @@
             </div>
         </section>
         <!-- Feedback Section End -->
-        
-        
         <!-- Pricing Section Start -->
         <section class="pricing-section rel z-1 bg-dark-blue pt-125 rpt-95 pb-80 rpb-50" id="pricing">
             <div class="container">
                 <div class="row justify-content-center">
-                   <div class="col-xl-8 col-lg-9 col-md-10">
-                       <div class="section-title text-center text-white mb-55">
+                    <div class="col-xl-8 col-lg-9 col-md-10">
+                        <div class="section-title text-center text-white mb-55">
                             <span class="sub-title">Pricing Package</span>
-                            <h2>Best Pricing For  Create Awesome Landing Web Design</h2>
+                            <h2>Best Pricing For Create Awesome Landing Web Design</h2>
                         </div>
-                   </div>
-               </div>
+                    </div>
+                </div>
                 <div class="row large-gap justify-content-center">
                     <div class="col-lg-4 col-sm-6">
                         <div class="pricing-item wow fadeInUp delay-0-2s">
@@ -671,8 +631,6 @@
             <div class="pricing-right-circles wow customSlideInLeft delay-0-5s"></div>
         </section>
         <!-- Pricing Section End -->
-        
-        
         <!-- Blog Section Start -->
         <section class="blog-section rel z-1 pt-125 rpt-95" id="blog">
             <div class="container">
@@ -743,15 +701,13 @@
             </div>
         </section>
         <!-- Blog Section End -->
-        
-        
         <!-- Contact Section Start -->
         <section class="contact-section text-center pt-100 rpt-70" id="contact">
             <div class="container">
-               <div class="row justify-content-center">
-                   <div class="col-lg-10">
-                       <div class="contact-inner bg-light">
-                           <div class="section-title mb-50">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="contact-inner bg-light">
+                            <div class="section-title mb-50">
                                 <span class="sub-title">Get In Touch</span>
                                 <h2>Need Any Consultations?</h2>
                             </div>
@@ -759,13 +715,13 @@
                                 <div class="row clearfix">
                                     <div class="col-md-6">
                                         <div class="form-group wow fadeInUp delay-0-1s">
-                                            <input type="text" id="name" name="name" class="form-control"  placeholder="Full Name" required data-error="Please enter your name">
+                                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required data-error="Please enter your name">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group wow fadeInUp delay-0-2s">
-                                            <input type="email" id="email" name="email" class="form-control"  placeholder="Email Address" required data-error="Please enter your email">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Email Address" required data-error="Please enter your email">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -793,20 +749,18 @@
                                     </div>
                                 </div>
                             </form>
-                       </div>
-                   </div>
-               </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Contact Section End -->
-        
-        
         <!-- Footer Area Start -->
         <footer class="main-footer z-1 rel bg-dark-blue text-white pt-250">
             <div class="container">
-               <div class="location-social pt-40 pb-10">
+                <div class="location-social pt-40 pb-10">
                     <div class="location wow fadeInRight delay-0-2s">
-                       <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <h5>55 Main Street, 2nd Block New York City</h5>
                     </div>
                     <div class="social-style-one mb-10 wow fadeInLeft delay-0-2s">
@@ -823,7 +777,7 @@
                         <h2>Let’s Design Your New Website</h2>
                     </div>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi architecto</p>
-                    <a href="#" class="theme-btn style-two mt-10">Start  a Project <i class="fas fa-long-arrow-alt-right"></i></a>
+                    <a href="#" class="theme-btn style-two mt-10">Start a Project <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
                 <div class="copyright-area pt-25 pb-15">
                     <ul class="footer-menu py-5">
@@ -839,36 +793,21 @@
             <div class="footer-left-circles wow customSlideInLeft delay-0-5s"></div>
         </footer>
         <!-- Footer Area End -->
-
     </div>
     <!--End pagewrapper-->
-   
+
     <!-- Scroll Top Button -->
     <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
-    
-
-    <!--====== Jquery ======-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <!--====== Bootstrap ======-->
     <script src="assets/js/bootstrap.min.js"></script>
-    <!--====== Slick ======-->
     <script src="assets/js/slick.min.js"></script>
-    <!--====== Magnific Popup ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!--====== Nice Select ======-->
     <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- AjaxChimp Min JS -->
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <!-- Form Validator Min JS -->
     <script src="assets/js/form-validator.min.js"></script>
-    <!-- Contact Form Min JS -->
     <script src="assets/js/contact-form-script.js"></script>
-    <!--  WOW Animation -->
     <script src="assets/js/wow.min.js"></script>
-    <!-- Custom script -->
     <script src="assets/js/script.js"></script>
-
 </body>
 
-<!-- Mirrored from demo.webtend.net/html/qoll/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Nov 2023 15:30:59 GMT -->
 </html>

@@ -46,7 +46,7 @@
 
                     <div class="header-inner d-flex align-items-center justify-content-between">
                         <div class="logo-outer d-lg-flex align-items-center">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a></div>
+                            <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a></div>
                             <select name="select-languages" id="select-languages">
                                 <option value="English">English</option>
                                 <option value="Spanish">Spanish</option>
@@ -67,7 +67,7 @@
                                     </button>
                                     
                                    <div class="mobile-logo p-15 m-auto">
-                                       <a href="index.html">
+                                       <a href="index.php">
                                             <img src="assets/images/logo.png" alt="Logo" title="Logo">
                                        </a>
                                    </div>
@@ -75,22 +75,22 @@
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li><a href="index.html#home">home</a></li>
+                                        <li><a href="index.php#home">home</a></li>
                                         <li class="dropdown"><a href="#">about</a>
                                             <ul>
-                                                <li><a href="index.html#services">what we offer</a></li>
-                                                <li><a href="index.html#about">about Us</a></li>
-                                                <li><a href="index.html#what-we-want">what we want</a></li>
-                                                <li><a href="index.html#why-choose-us">why choose us</a></li>
-                                                <li><a href="index.html#faqs">core features</a></li>
-                                                <li><a href="index.html#technologies">technologies</a></li>
+                                                <li><a href="index.php#services">what we offer</a></li>
+                                                <li><a href="index.php#about">about Us</a></li>
+                                                <li><a href="index.php#what-we-want">what we want</a></li>
+                                                <li><a href="index.php#why-choose-us">why choose us</a></li>
+                                                <li><a href="index.php#faqs">core features</a></li>
+                                                <li><a href="index.php#technologies">technologies</a></li>
                                                 <li><a href=index-3.html#feedbacks">clients feedback</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="index.html#projects">project</a></li>
-                                        <li><a href="index.html#pricing">pricing</a></li>
-                                        <li><a href="index.html#blog">blog</a></li>
-                                        <li><a href="index.html#contact">Contact</a></li>
+                                        <li><a href="index.php#projects">project</a></li>
+                                        <li><a href="index.php#pricing">pricing</a></li>
+                                        <li><a href="index.php#blog">blog</a></li>
+                                        <li><a href="index.php#contact">Contact</a></li>
                                     </ul>
                                 </div>
 
@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-md-6">
                         <ul class="breadcrumb-nav wow fadeInLeft delay-0-2s">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Blog Details</li>
                         </ul>
                     </div>
