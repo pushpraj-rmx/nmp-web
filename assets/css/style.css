@@ -165,10 +165,10 @@ textarea,
   line-height: 1.2;
   font-weight: 700;
   border-radius: 5px;
-  padding: 20px 30px;
+  padding: 10px 20px;
   color: #1e266d;
-  background-color: #fff;
-  font-family: "Quicksand", sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  /* font-family: "Quicksand", sans-serif; */
 }
 
 textarea {
@@ -179,7 +179,7 @@ label {
   cursor: pointer;
   font-weight: 500;
   margin-bottom: 5px;
-  color: #696e7b;
+  color: #ffffff;
 }
 
 .form-group {
@@ -644,7 +644,7 @@ a.theme-btn.style-three:hover {
 }
 
 .bg-dark-blue {
-  background-color: #0e1b38;
+  background-color: #001554;
 }
 
 /* Border Radius */
@@ -3353,6 +3353,11 @@ h6 {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
+
+.main-header .logo img {
+width: 300px;
+}
+
 .main-header .header-upper {
   z-index: 5;
   width: 100%;
@@ -3402,18 +3407,18 @@ h6 {
   width: 8px;
   height: 8px;
   margin-top: -5px;
-  border-color: #0066ff;
+  border-color: #000000;
 }
 .main-header .nice-select .current {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .main-header .nice-select .list {
   top: 30px;
   left: auto;
 }
 .main-header.fixed-header .header-upper {
-  background: #1e266d;
-  border-bottom: 1px solid #1e266d;
+  background: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 .main-header.fixed-header .navbar-collapse > ul > li {
   padding-top: 25px;
@@ -3464,7 +3469,7 @@ h6 {
   }
 }
 .main-menu .navbar-collapse > ul > li > a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 @media only screen and (max-width: 991px) {
   .main-menu .navbar-collapse > ul > li > a {
@@ -3721,7 +3726,7 @@ h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 .menu-sidebar button .icon-bar:nth-child(2) {
   width: 100%;
@@ -3897,7 +3902,7 @@ h6 {
   filter: blur(200px);
   width: 700px;
   height: 700px;
-  background: #0066ff;
+  background: #f6f9ff;
   line-height: 700px;
   border-radius: 50%;
   text-align: center;
@@ -4165,8 +4170,8 @@ h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  padding: 60px 45px;
-  border-radius: 7px;
+  padding: 10px 10px;
+  border-radius: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeff1;
 }
@@ -4177,7 +4182,36 @@ h6 {
 }
 .service-item img {
   margin-bottom: 30px;
+  background-color: #001554;
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
 }
+
+.service-item i.fa-globe,
+.service-item i.fa-window-restore,
+.service-item i.fa-shopping-cart,
+.service-item i.fa-users-cog {
+  font-size: 30px;
+  color: rgb(0, 49, 97);
+}
+
+
+.icon-wrapper {
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  height: 70px;
+  width: 70px;
+  margin: auto;
+  border-radius: 100%;
+  padding-top: 20px;
+}
+
+
+.bg-1 {
+  background-color: #ececec;
+}
+
 .service-item h4 {
   margin-bottom: 20px;
 }
@@ -4186,9 +4220,42 @@ h6 {
     font-size: 20px;
   }
 }
+.service-item {
+  -webkit-box-shadow: 10px 0 10px rgba(14, 27, 56, 0.15);
+  box-shadow: 10px 0 10px rgba(14, 27, 56, 0.15);
+  /* transition: transform 0.3s ease; */
+}
+
 .service-item:hover {
   -webkit-box-shadow: 20px 0 60px rgba(14, 27, 56, 0.15);
   box-shadow: 20px 0 60px rgba(14, 27, 56, 0.15);
+  /* transform:translateX(30px);
+  transform:translateY(30px); */
+  transform: scale(1.005) !important;
+  /* transition: transform 0.3s ease; */
+}
+
+.pricing-item {
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(10.2px) !important;
+-webkit-backdrop-filter: blur(10.2px) !important;
+border: 1px solid rgba(255, 255, 255, 1) !important;
+}
+
+.pricing-item h1,
+.pricing-item h2,
+.pricing-item h3,
+.pricing-item h4,
+.pricing-item h5,
+.pricing-item h6,
+.pricing-item p,
+.pricing-item a,
+.pricing-item li
+ {
+color: white !important;
 }
 
 /*******************************************************/
@@ -5584,4 +5651,121 @@ h6 {
   opacity: 0.02;
   -webkit-animation: customSlideInLeft linear 2s both;
   animation: customSlideInLeft linear 2s both;
+}
+
+.text-dark h1 {
+  color: black !important;
+}
+
+.hero-section.bg-light-blue {
+  /* background-color: rgb(240, 243, 255); */
+  background-image: url(../images/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-form {
+  padding: 30px 20px;
+  margin: 10px 0px;
+  border: 1px solid rgba(100, 100, 100, 0);
+  border-radius: 10px;
+  background: linear-gradient( 45deg, rgb(0 19 229 / 30%) 26%, rgb(0 14 206 / 30%) 100% );
+  background-blend-mode: normal;
+  transform: translate(0px, 0px);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  /* -webkit-backdrop-filter: blur(16px); */
+  /* z-index: 10; */
+}
+
+.hero-form input {
+  border: 1px solid rgb(158, 170, 255);
+  margin: 10px 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  /* z-index: 10; */
+}
+
+.hero-form input::placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+.hero-form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.hero-form input[type=number]{
+  -moz-appearance: textfield;
+}
+
+
+.img-wrapper .firstround,
+.img-wrapper .secondround,
+.img-wrapper .thirdround {
+  position: absolute;
+  /* animation: rotation 8s infinite linear; */
+  animation-delay: .2s;
+  top: 40px;
+  left: 36px;
+  z-index: -1;
+}
+
+/* .img-wrapper img {
+  z-index: -1;
+} */
+
+.hero-form .center-div {
+  text-align: center;
+}
+
+.hero-content {
+  /* padding: 30px; */
+  /* background-color: #ffffffb3; */
+  border-radius: 10px;
+  /* backdrop-filter: blur(5px); */
+}
+
+
+@keyframes rotateAnimation1 {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateAnimation2 {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotateAnimation3 {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(180deg);
+  }
+}
+
+.rotate-image1 {
+  animation: rotateAnimation1 12s linear infinite;
+}
+
+.rotate-image2 {
+  animation: rotateAnimation2 18s linear infinite;
+}
+
+.rotate-image3 {
+  animation: rotateAnimation3 20s linear infinite;
 }

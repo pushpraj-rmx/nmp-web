@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--====== Title ======-->
-    <title>Qoll - Agency HTML Template || Home</title>
+    <title>NMPI - Website Development Agency</title>
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-awesome-5.9.0.min.css">
@@ -30,15 +30,15 @@
             <div class="header-upper">
                 <div class="container-fluid clearfix">
 
-                    <div class="header-inner d-flex align-items-center justify-content-between">
+                    <div class="header-inner d-flex align-items-center justify-content-between text-dark">
                         <div class="logo-outer d-lg-flex align-items-center">
                             <div class="logo"><a href="index.php"><img src="assets/images/logo.png" alt="Logo" title="Logo"></a></div>
-                            <select name="select-languages" id="select-languages">
+                            <!-- <select name="select-languages" id="select-languages">
                                 <option value="English">English</option>
                                 <option value="Spanish">Spanish</option>
                                 <option value="Chinese">Chinese</option>
                                 <option value="Arabic">Arabic</option>
-                            </select>
+                            </select> -->
                         </div>
 
                         <div class="nav-outer clearfix">
@@ -67,7 +67,7 @@
                                         <li><a href="#pricing">pricing</a></li>
                                         <li><a href="#blog">blog</a></li>
                                         <li><a href="#contact">Contact</a></li>
-                                        <li class="dropdown"><a href="#">Pages</a>
+                                        <!-- <li class="dropdown"><a href="#">Pages</a>
                                             <ul>
                                                 <li><a href="#services">Services</a></li>
                                                 <li><a href="#about">about Us</a></li>
@@ -77,7 +77,7 @@
                                                 <li><a href="#technologies">technologies</a></li>
                                                 <li><a href="#feedbacks">clients feedback</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </div>
                             </nav>
@@ -141,23 +141,42 @@
         </section>
         <!--End Hidden Sidebar -->
         <!-- Hero Section Start -->
-        <section class="hero-section rel z-1 bg-dark-blue pt-25 rpt-5" id="home">
+        <section class="hero-section rel z-1 bg-light-blue pt-25 rpt-5" id="home">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-8 col-md-10 col-sm-11">
-                        <div class="hero-content text-white mt-250 mb-215">
-                            <span class="sub-title wow fadeInUp delay-0-2s">Welcome to Qolle</span>
-                            <h1 class="wow fadeInUp delay-0-4s">Creative Solutions For Web Design and Development</h1>
-                            <p class="wow fadeInUp delay-0-6s">Sed ut perspiciatis unde omnis iste natus error siluptatem accusantium doloremque laudantium totam rem</p>
+                    <div class="col-lg-7 col-md-6 col-sm-11">
+                        <div class="hero-content text-dark mt-250 mb-215">
+                            <!-- <span class="sub-title wow fadeInUp delay-0-2s">Welcome To NMPI</span> -->
+                            <h1 class="wow fadeInUp delay-0-4s">
+                                Next-Level Web Development: Where Innovation Meets Functionality
+                            </h1>
+                            <p class="wow fadeInUp delay-0-6s">Transforming Visions into Digital Realities.</p>
                             <div class="hero-btn mt-35 wow fadeInUp delay-0-8s">
-                                <a href="#" class="theme-btn style-two">Start a Project <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <a href="#" class="theme-btn style-two">Get Project Estimate<i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
                     </div>
+                    <div class="d-none d-sm-block col-lg-5 col-md-6 col-sm-11">
+                        <form action="" class="hero-form" method="post">
+                            <label for="name">Full Name</label>
+                            <input type="text" name="" id="" placeholder="Full Name">
+                            <label for="name">Email</label>
+                            <input type="email" name="" id="" placeholder="Subject">
+                            <label for="name">Phone Number</label>
+                            <input type="number" name="" id="" placeholder="Number">
+                            <div class="center-div">
+                                <button type="submit" class="theme-btn">Submit</button>
+                            </div>
+
+                        </form>
+                        <div class="img-wrapper">
+                            <img src="assets/images/first-inner-round.svg" alt="" class="rotate-image1 firstround hidden-xs visible-sm visible-md visible-lg">
+                            <img src="assets/images/second-inner-round.svg" alt="" class="rotate-image2 secondround hidden-xs  visible-sm visible-md visible-lg">
+                            <img src="assets/images/third-outer-round.svg" alt="" class="rotate-image3 thirdround hidden-xs visible-sm visible-md visible-lg">
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-            <div class="hero-right-image wow fadeInLeft delay-0-2s" data-wow-duration="2s">
-                <img src="assets/images/hero.png" alt="Hero">
             </div>
             <div class="hero-right-circles wow customSlideInRight"></div>
             <div class="hero-dot-one"></div>
@@ -166,7 +185,7 @@
         </section>
         <!-- Hero Section End -->
         <!-- Services Section Start -->
-        <section class="services-section text-center pt-125 rpt-95" id="services">
+        <section class="bg-1 services-section text-center pt-125 rpt-95" id="services">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-10">
@@ -177,27 +196,52 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="service-item wow fadeInUp delay-0-2s">
-                            <img src="assets/images/services/icon-1.png" alt="Icon">
+                            <!-- <img src="assets/images/services/icon-1.png" alt="Icon"> -->
+                            <div class="icon-wrapper">
+                                <i class="fas fa-globe"></i>
+                            </div>
+
                             <h4><a href="#">Provide Web Design & Development</a></h4>
-                            <p>Neque porro uiseu dolorem sumquia dolor consectetur adipisc velitsed uian numquam modempra</p>
+                            <p>Our team at NMPI specializes in providing solutions to help your business stand out in the digital landscape. We offer a range of services tailored to meet your specific needs and goals.
+                            </p>
                             <a href="#" class="read-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="service-item wow fadeInUp delay-0-4s">
-                            <img src="assets/images/services/icon-2.png" alt="Icon">
+                            <!-- <img src="assets/images/services/icon-2.png" alt="Icon"> -->
+                            <div class="icon-wrapper">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
                             <h4><a href="#">We Provide Logo Design & Copywriting</a></h4>
-                            <p>Neque porro uiseu dolorem sumquia dolor consectetur adipisc velitsed uian numquam modempra</p>
+                            <p>A memorable brand starts with a unique logo. Our design and copywriting team collaborate to bring your brand to life, ensuring it communicates effectively and leaves a lasting impression.
+                            </p>
                             <a href="#" class="read-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-3 col-sm-6">
                         <div class="service-item wow fadeInUp delay-0-6s">
-                            <img src="assets/images/services/icon-3.png" alt="Icon">
-                            <h4><a href="#">Best Website Support & Consultations</a></h4>
-                            <p>Neque porro uiseu dolorem sumquia dolor consectetur adipisc velitsed uian numquam modempra</p>
+                            <!-- <img src="assets/images/services/icon-3.png" alt="Icon"> -->
+                            <div class="icon-wrapper">
+                                <i class="fas fa-window-restore"></i>
+                            </div>
+                            <h4><a href="#">Website Support & Consultations</a></h4>
+                            <p>Ensuring your website requires ongoing support and expert consultations. We provide top-notch maintenance services to keep your digital presence optimal and in line with industry trends.
+                            </p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="service-item wow fadeInUp delay-0-6s">
+                            <!-- <img src="assets/images/services/icon-3.png" alt="Icon"> -->
+                            <div class="icon-wrapper">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <h4><a href="#">Best Support & Consultations</a></h4>
+                            <p>Best requires ongoing support and expert consultations. We provide top-notch maintenance services to keep your digital presence optimal and in line with industry trends.
+                            </p>
                             <a href="#" class="read-more">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -218,13 +262,17 @@
                         <div class="about-content wow fadeInRight delay-0-2s">
                             <div class="section-title mb-30">
                                 <span class="sub-title">about us</span>
-                                <h2>We Are Professional <span>&</span> Award-winning Web Design Studio</h2>
+                                <h2>We Are <span>NMPI - </span><br> Your Trusted Web Development Partner</h2>
                             </div>
-                            <p>Sed perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam rem aperiam eaquepsa quae abillo inentore veritatis quasi architecto beatae vitae</p>
+                            <p>
+                                At NMPI, we are dedicated to delivering cutting-edge web solutions. Our team of experts combines creativity, technical expertise, and a customer-centric approach to bring your vision to life.
+
+
+                            </p>
                             <ul class="list-style-one pt-5 pb-30">
-                                <li>Unique & Modern Design</li>
-                                <li>High Quality & Lifetime Update</li>
-                                <li>Online Support 24/7 Hours</li>
+                                <li>Customized Design Solutions</li>
+                                <li>High-Quality Development</li>
+                                <li>24/7 Online Support</li>
                             </ul>
                             <a href="#" class="theme-btn">Learn More Us <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
@@ -261,14 +309,18 @@
                                 </ul>
                                 <div class="tab-content pt-10">
                                     <div class="tab-pane fade show active" id="our-mission">
-                                        <p>Sed perspiciatis unde omnis natus voluptatem accusantie doloremue laudantium totam aperiam eaquepsa quae abillo inentore veritatis quasi architecto beatae vitae</p>
+                                        <p>
+                                            Our mission at NMPI is to create impactful and innovative solutions that empower businesses to thrive in the digital landscape. We aim to be a trusted partner, dedicated to the success and growth of our clients.
+                                        </p>
                                         <ul class="list-style-one">
                                             <li>Web Design Solutions</li>
                                             <li>Marketing Strategy</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane fade" id="our-vission">
-                                        <p>Ipsam ducimus itaque voluptatibus voluptatem minima quis eaque mollitia, eos deleniti inventore autem animi esse. Dolor, tempora provident ratione et.</p>
+                                        <p>
+                                            We envision a digital world where businesses leverage cutting-edge technologies and creative strategies to achieve their goals. NMPI aspires to be at the forefront of this evolution, shaping the future of web design.
+                                        </p>
                                         <ul class="list-style-one">
                                             <li>Marketing Strategy</li>
                                             <li>Web Design Solutions</li>
@@ -289,7 +341,7 @@
                     <div class="col-xl-6 col-lg-8 col-md-10">
                         <div class="section-title mb-50">
                             <span class="sub-title">Recent Projects</span>
-                            <h2>Lat’s Look Our Recent Project That We Provide Global Clients</h2>
+                            <h2>Let’s Look Our Recent Project That We Provide Global Clients</h2>
                         </div>
                     </div>
                 </div>
@@ -340,13 +392,17 @@
                                 <li>
                                     <div class="list-content">
                                         <h5>Competitive Rates</h5>
-                                        <p>Natus voluptatem accusantie doloremue laudantium totam aperiam eaquepsa quae abillo</p>
+                                        <p>
+                                            Quality doesn't have to come at a high price. At NMPI, we are committed to providing top-notch services at competitive rates. Our goal is to deliver value without compromising on excellence.
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="list-content">
                                         <h5>No Contracts Needed</h5>
-                                        <p>Natus voluptatem accusantie doloremue laudantium totam aperiam eaquepsa quae abillo</p>
+                                        <p>
+                                            We believe in earning your trust with exceptional service, not binding contracts. Enjoy the flexibility of working with us without the constraints of long-term commitments.
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
@@ -364,43 +420,60 @@
                     <div class="col-lg-6">
                         <div class="faq-content rmb-55 wow fadeInRight delay-0-2s">
                             <div class="section-title mb-30">
-                                <span class="sub-title">Core Features</span>
-                                <h2>New Idea For Success Wed Development</h2>
+                                <span class="sub-title">Frequently Asked Questions</span>
+                                <h2>Explore common questions &amp; find the answers you need.</h2>
                             </div>
                             <div class="faq-accordion" id="faq-accordion">
                                 <div class="card">
-                                    <a class="collapsed card-header" id="heading1" href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"><span class="toggle-btn"></span> Flippy Snaps With React And GreenSock
+                                    <a class="collapsed card-header" id="heading1" href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"><span class="toggle-btn"></span>
+                                        How can I get started with NMPI's web development services?
                                     </a>
                                     <div id="collapse1" class="collapse" data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>Lorem available market standard dummy text available market industry Lorem Ipsum simply dummy text of free available market.There are many variations.</p>
+                                            <p>
+                                                To begin your journey with us, simply contact us and let us know about your project requirements. Our team will guide you through the process.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <a class="card-header" id="heading2" href="#" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="toggle-btn"></span> Meet Touch Design Mobile Interfaces Book ?
+                                    <a class="card-header" id="heading2" href="#" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="toggle-btn"></span>
+                                        What technologies do you use for web development?
                                     </a>
                                     <div id="collapse2" class="collapse show" data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded</p>
+                                            <p>
+                                                We leverage cutting-edge technologies, including React, GreenSock, and more. Our goal is to stay at the forefront of industry trends to deliver the best solutions for our clients.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <a class="collapsed card-header" id="heading3" href="#" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><span class="toggle-btn"></span> Powerful Terminal And Command-Line ?
+                                    <a class="collapsed card-header" id="heading3" href="#" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"><span class="toggle-btn"></span>
+                                        Is there ongoing support after the website is launched?
+
+
                                     </a>
                                     <div id="collapse3" class="collapse" data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>Lorem available market standard dummy text available market industry Lorem Ipsum simply dummy text of free available market.There are many variations.</p>
+                                            <p>
+                                                Absolutely! We provide continuous support and maintenance services to ensure your website remains up-to-date and functions seamlessly.
+
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <a class="collapsed card-header" id="heading4" href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><span class="toggle-btn"></span> Useful React Hooks Can Use In Your Projects ?
+                                    <a class="collapsed card-header" id="heading4" href="#" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"><span class="toggle-btn"></span>
+                                        How can I incorporate mobile-friendly design into my project?
+
+
                                     </a>
                                     <div id="collapse4" class="collapse" data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>Lorem available market standard dummy text available market industry Lorem Ipsum simply dummy text of free available market.There are many variations.</p>
+                                            <p>
+                                                Our team specializes in creating mobile-responsive interfaces. We'll work with you to ensure your project is optimized for a wide range of devices.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -500,7 +573,7 @@
                         <div class="feedback-left-content rmb-55 wow fadeInLeft delay-0-2s">
                             <div class="section-title mb-40">
                                 <span class="sub-title">Clients Feedback</span>
-                                <h2>We Have <span>6352+</span> Global Clients. What Clients Say Us</h2>
+                                <h2>We Have <span>350+</span> Global Clients.<br>Let's See What Clients Say About Us</h2>
                             </div>
                             <a href="#" class="theme-btn style-three">View More Reviews <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
@@ -527,38 +600,38 @@
                             <div class="feedback-content-wrap">
                                 <div class="feedback-content-item">
                                     <span class="feedback-text">
-                                        Sit amet consectetur adipiscing elitsese eiusmod tempor incididunt ut labore etsysc dolore magna aliqua spendisse ultricesy gravida commodo viva maece.
+                                        NMPI transformed our business with a stunning website. As the CEO, I appreciate their attention to detail and commitment to excellence. The team is not just a service provider but a true partner in our success.
                                     </span>
-                                    <h5>Robert A. Greening</h5>
-                                    <h6>Senior Manager</h6>
+                                    <h5>Rajesh Kumar</h5>
+                                    <h6>CEO, Mumbai, India</h6>
                                 </div>
                                 <div class="feedback-content-item">
                                     <span class="feedback-text">
-                                        Adipiscing elitsese eiusmod tempor incididunt ut labore etsysc Sit amet consectetur a dolore magna aliqua spendisse gravida commodo viva maece.
+                                        Working with NMPI was an absolute pleasure. As the Marketing Director, I value their team's creativity and dedication, resulting in a website that exceeded our expectations. Distance was never an issue; communication was seamless.
                                     </span>
-                                    <h5>Michael Delgadillo</h5>
-                                    <h6>Senior Manager</h6>
+                                    <h5>Sophie Williams</h5>
+                                    <h6>Marketing Director, New York, USA</h6>
                                 </div>
                                 <div class="feedback-content-item">
                                     <span class="feedback-text">
-                                        Incididunt ut labore etsysc dolore magna aliqua spendisse Sit amet consectetur adipiscing elitsese eiusmod tempor ultricesy gravida commodo viva maece.
+                                        Choosing NMPI was the best decision for our online presence. As the Marketing Manager, I value how they not only delivered a visually appealing website but also ensured it aligns perfectly with our brand. The level of professionalism is unmatched.
                                     </span>
-                                    <h5>Philip M. Rita</h5>
-                                    <h6>Senior Manager</h6>
+                                    <h5>Ananya Singh</h5>
+                                    <h6>Marketing Manager, Delhi, India</h6>
                                 </div>
                                 <div class="feedback-content-item">
                                     <span class="feedback-text">
-                                        Ultricesy gravida commodo viva maece Sit amet consectetur adipiscing elitsese eiusmod tempor incididunt ut labore etsysc dolore magna aliqua spendisse.
+                                        NMPI's global approach and understanding of diverse markets set them apart. As the Chief Technology Officer, our project required an international perspective, and they delivered with precision. I highly recommend NMPI for their professionalism and creativity.
                                     </span>
-                                    <h5>Brandon G. Hill</h5>
-                                    <h6>Senior Manager</h6>
+                                    <h5>Carlos Rodriguez</h5>
+                                    <h6>CTO, Madrid, Spain</h6>
                                 </div>
                                 <div class="feedback-content-item">
                                     <span class="feedback-text">
-                                        Magna aliqua spendisse ultricesy gravida commodo viva maece Sit amet consectetur adipiscing elitsese eiusmod tempor incididunt ut labore etsysc dolore.
+                                        NMPI's web development expertise is unparalleled. As the IT Director, I appreciate how they seamlessly integrated complex functionalities into our site, making it a user-friendly experience. The support post-launch has been exceptional.
                                     </span>
-                                    <h5>Frank A. Smith</h5>
-                                    <h6>Senior Manager</h6>
+                                    <h5>Amit Patel</h5>
+                                    <h6>IT Director, Bangalore, India </h6>
                                 </div>
                             </div>
                         </div>
@@ -632,7 +705,7 @@
         </section>
         <!-- Pricing Section End -->
         <!-- Blog Section Start -->
-        <section class="blog-section rel z-1 pt-125 rpt-95" id="blog">
+        <!-- <section class="blog-section rel z-1 pt-125 rpt-95" id="blog">
             <div class="container">
                 <div class="row align-items-end pb-35">
                     <div class="col-xl-6 col-lg-8">
@@ -699,7 +772,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Blog Section End -->
         <!-- Contact Section Start -->
         <section class="contact-section text-center pt-100 rpt-70" id="contact">
@@ -761,7 +834,10 @@
                 <div class="location-social pt-40 pb-10">
                     <div class="location wow fadeInRight delay-0-2s">
                         <i class="fas fa-map-marker-alt"></i>
-                        <h5>55 Main Street, 2nd Block New York City</h5>
+                        <h5>
+                            E-518, 2nd Floor, Kochhar Plaza,
+                            Ramphal Chowk Rd, Sector 7 Dwarka, New Delhi
+                        </h5>
                     </div>
                     <div class="social-style-one mb-10 wow fadeInLeft delay-0-2s">
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -776,7 +852,9 @@
                     <div class="section-title mb-20">
                         <h2>Let’s Design Your New Website</h2>
                     </div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi architecto</p>
+                    <p>
+                        Embark on a journey to elevate your online presence and create a website that truly stands out. At NMPI, we specialize in crafting unforgettable digital experiences. Ready to turn your vision into reality? Seize the moment and kickstart your success.
+                    </p>
                     <a href="#" class="theme-btn style-two mt-10">Start a Project <i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
                 <div class="copyright-area pt-25 pb-15">
@@ -787,7 +865,7 @@
                         <li><a href="#">Experience</a></li>
                         <li><a href="#">Partners</a></li>
                     </ul>
-                    <p>Copyright @2022 qoll All Rights Reserved</p>
+                    <p>Copyright @2023 NMPI. All Rights Reserved</p>
                 </div>
             </div>
             <div class="footer-left-circles wow customSlideInLeft delay-0-5s"></div>
